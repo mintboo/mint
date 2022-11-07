@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0; font-family:"微软雅黑"; }
+#bigbox{ margin:auto;*margin-left:auto; width:1024px;}
+#head{ width:1024px; float:left; height:130px; background:url(main_res/a_01.gif) no-repeat left top;}
+#nav{ width:1024px; float:left; height:30px; background-color:#ccf;}
+#nav_head{ width:240px; height:25px; *height:30px; float:left; background-color:#036; color:#FFF; text-align:center; padding-top:5px;}
+
+<!--tie-->
+.smartmenu, .smartmenufloaty {
+    background: #8DB638 none repeat scroll 0 0;
+    border-top:1px solid #B7DF63;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+#navigation{  float:left;}
+.smartmenuie6 {
+    height: 30px;
+}
+
+.smartmenu a, 
+.smartmenufloaty a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #036;
+    border-right: 1px dotted #FFF;
+    padding: 0px 10px;
+}
+.smartmenu a{ display:block; width:90px; padding:0px; text-align:center;}
+.smartmenufloaty a { color:#FFF;}
+.smartmenu a.last {
+    border: none;
+}
+
+.smartmenu a:hover {
+    color: #c00; font-weight:bold;
+}
+
+.smartmenu ul, .smartmenufloaty ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.smartmenu ul li, .smartmenufloaty li {
+    padding: 5px 0px 5px 5px;
+    float: left;
+}
+
+.smartmenu li ul {
+    display: none;
+}
+
+.smartmenufloaty {
+    background: transparent;
+    position: absolute;
+    border: none;
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+}
+
+.smartmenufloaty .tip {
+    background: url(main_res/floatytip.png) no-repeat;
+    font-size: 0px; 
+    height: 20px;
+    width: 50px;
+    margin: 0px;
+    overflow: hidden;
+    display: block;
+}
+
+.smartmenufloaty .tipIE6 { 
+    background: url(http://xwgl.hfut.edu.cn/images/floatytip.gif);
+}
+
+.smartmenufloaty .padder {
+    background: url(main_res/floatybg.png);
+    padding: 0px 8px; 
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+.smartmenufloaty .padderIE6 {
+    background: url(http://xwgl.hfut.edu.cn/images/floatybg.gif);
+}
+
+.smartmenufloaty li {
+    float: none ;
+    border-bottom: 1px dotted #FFF;
+    padding: 5px 8px; 
+}
+ 
+.smartmenufloaty li.last {
+    border: none;
+}
+
+.smartmenufloaty a {
+    border: none;
+    padding: 0px;
+}
+
+.smartmenufloaty a:hover {
+    color: #c00; font-weight:bold;
+}
+
+<!--tie-->
+#main{ width:1024px; min-height:550px; float:left;}
+#left{ width:240px; height:550px; float:left;}
+#work{ width:240px; height:460px; float:left; overflow:hidden;}
+.work_title{ margin-top:5px; width:205px; height:24px; float:left; background:url(main_res/a_04.gif) no-repeat 10px 10px; padding-left:35px; padding-top:6px; }
+.work_title a{color:#036; text-decoration:none;}
+.work_title a:hover{ font-weight:bold; color:#C00;}
+#work_connection{ width:220px; height:410px; float:left; line-height:16px; font-size:14px; overflow:hidden; border-top:2px #ccf solid; padding:8px;}
+.link{ width:115px; height:75px; float:left;  margin-top:10px; padding-left:5px; }
+
+#middle{ width:510px; height:550px; float:left; margin-left:15px;}
+.notice_title{ width:465px; height:25px; float:left; background:url(main_res/a_06.gif) no-repeat left top; padding-left:45px; margin-top:10px;}
+.notice_title a{  color:#FFF; text-decoration:none;}
+.notice_title a:hover{  color:#c00; font-weight:bold;}
+#notice_coonnection{ width:510px; float:left; height:230px; overflow:hidden; margin-bottom:10px; background-color:#f7f7f7;}
+#notice_coonnection ul{ list-style-type:none; }
+#notice_coonnection ul li{ width:505px; height:25px; float:left; padding-left:5px;}
+#notice_coonnection ul li a{ color:#000; text-decoration:none; line-height:20px; font-size:12px; margin-top:5px; float:left; overflow:hidden; width:425px; display:block; height:20px;}
+#notice_coonnection ul li a:hover{ color:#C00; text-decoration:underline;}
+
+.works_title{ width:465px; height:25px; float:left; background:url(main_res/a_18.gif) no-repeat left top; padding-left:45px; margin-top:10px;}
+.works_title a{  color:#FFF; text-decoration:none;}
+.works_title a:hover{  color:#c00; font-weight:bold;}
+#works_coonnection{ width:510px; float:left; height:230px; overflow:hidden; background-color:#f7f7f7;}
+#works_coonnection ul{ list-style-type:none; }
+#works_coonnection ul li{ width:505px; height:25px; float:left; padding-left:5px;}
+#works_coonnection ul li a{ color:#000; text-decoration:none; line-height:20px; font-size:12px; margin-top:5px; float:left; overflow:hidden; width:425px; display:block; height:20px;}
+#works_coonnection ul li a:hover{ color:#C00; text-decoration:underline;}
+.time{ width:70px; height:20px; font-size:12px; float:right; padding-top:5px;}
+
+#right{ width:230px; height:530px; float:left; border-left:dotted 2px #ccf; margin-top:8px; margin-left:15px;}
+.r_title{ width:200px; height:25px; padding-top:8px; background:url(main_res/a_09.gif) no-repeat 15px 8px; padding-left:30px; float:left;}
+.r_title a{ color:#000; text-decoration:none;}
+.r_title a:hover{ color:#c00; text-decoration:none; font-weight:bold;}
+#download{ width:230px; height:230px; float:left; overflow:hidden;}
+#download ul{ list-style-type:none;} 
+#download li{width:220px; padding-left:10px; height:25px; float:left; line-height:25px; margin-top:8px;}
+#download li a{ color:#000; text-decoration:none; font-size:12px;}
+#download li a:hover{ color:#C00; text-decoration:underline;}
+
+#connection{ width:220px; height:240px; float:left; overflow:hidden;}
+#connection ul{ list-style-type:none;} 
+#connection li{ width:220px; padding-left:10px; height:25px; float:left; line-height:25px; margin-top:8px; }
+#connection li a{ color:#000; text-decoration:none; font-size:12px;}
+#connection li a:hover{ color:#C00; text-decoration:underline;}
+
+#bottom{ color:#630; width:1024px; height:50px; float:left; background:url(main_res/a_28.gif) no-repeat center top; font-size:13px; text-align:center; padding-top:10px;}
+
+<!--子页-->
+#work_connection ul{ list-style-type:none;}
+#work_connection ul li{ width:240px; padding-left:10px; overflow:hidden; font-size:15px; line-height:20px; height:25px; float:left;}
+#work_connection ul li a{ color:#000; text-decoration:none; color:#036;}
+#work_connection ul li a:hover{ font-weight:bold; color:#c00;}
+
+#con{ float:left; width:760px; min-height:550px; margin-left:10px;}
+h1{ display:block; width:760px; float:left; line-height:40px; text-align:center; margin-top:5px; font:800 26px/30px "宋体",arial;}
+.gray{ display:block; width:760px; float:left; height:20px; text-align:center; font-size:14px; margin-top:5px; color:#666;}
+#con_con{ float:left; width:760px; font-size:14px; line-height:20px; margin-top:10px;}
+#con_con ul{ list-style-type:none; }
+#con_con ul li{ width:760px; height:25px; float:left; padding-left:5px;}
+#con_con ul li a.aclass{ color:#0B0; text-decoration:none; line-height:20px; font-size:13px;  margin-top:5px; float:left; overflow:hidden; width:65px; display:block; height:20px;}
+#con_con ul li a.aclass:hover{ color:#00B; text-decoration:underline;}
+#con_con ul li a.title{ color:#000; text-decoration:none; line-height:20px; font-size:13px;  margin-top:5px; float:left; overflow:hidden; width:560px; display:block; height:20px;}
+#con_con ul li a.title:hover{ color:#C00; text-decoration:underline;}
+<!-- 2012年9月13日10:07:28 dkzg16-->
+<!--#article_title h1{ color:#000;font:800 26px/30px "宋体",arial;margin-bottom:6px; text-align:center; padding:16px 0 8px; border-bottom:1px solid #e5e5e5 }-->
+#wp_paging_w5 li {
+	    width: 200px !important;
+    display: inline-block !important;
+    height: 25px !important;
+    line-height: 25px !important;
+    float: left !important;
+    margin-top: 5px !important;
+	background:none;}
+.dqwz a {
+	text-decoration: none;
+    list-style: none;
+    color: #799;
+	}
+	
+#wp_news_w5 .aclass	{     color: #0B0;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 5px;
+    float: left;
+    overflow: hidden;
+    width: 65px;
+    display: block;
+    height: 20px;}
